@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21730" started-at="2020-10-16T14:44:54 ALMT" finished-at="2020-10-16T14:45:16 ALMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21730" started-at="2020-10-16T14:44:54 ALMT" finished-at="2020-10-16T14:45:16 ALMT">
+      <class name="com.bitm.SeleniumOnlineProject2.Test.LoginTest">
+        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@5a8806ef]" name="CheckLoginPageTitle" duration-ms="13886" started-at="2020-10-16T14:44:55 ALMT" finished-at="2020-10-16T14:45:08 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginPageTitle -->
+        <test-method status="PASS" signature="LoginTestCheck()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@5a8806ef]" name="LoginTestCheck" duration-ms="7700" started-at="2020-10-16T14:45:08 ALMT" finished-at="2020-10-16T14:45:16 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCheck -->
+      </class> <!-- com.bitm.SeleniumOnlineProject2.Test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
