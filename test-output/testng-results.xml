@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21730" started-at="2020-10-16T14:44:54 ALMT" finished-at="2020-10-16T14:45:16 ALMT">
+  <suite name="Default suite" duration-ms="38878" started-at="2020-10-19T21:47:28 ALMT" finished-at="2020-10-19T21:48:07 ALMT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21730" started-at="2020-10-16T14:44:54 ALMT" finished-at="2020-10-16T14:45:16 ALMT">
+    <test name="Default test" duration-ms="38878" started-at="2020-10-19T21:47:28 ALMT" finished-at="2020-10-19T21:48:07 ALMT">
       <class name="com.bitm.SeleniumOnlineProject2.Test.LoginTest">
-        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@5a8806ef]" name="CheckLoginPageTitle" duration-ms="13886" started-at="2020-10-16T14:44:55 ALMT" finished-at="2020-10-16T14:45:08 ALMT">
+        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@4e7dc304]" name="CheckLoginPageTitle" duration-ms="16939" started-at="2020-10-19T21:47:28 ALMT" finished-at="2020-10-19T21:47:45 ALMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckLoginPageTitle -->
-        <test-method status="PASS" signature="LoginTestCheck()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@5a8806ef]" name="LoginTestCheck" duration-ms="7700" started-at="2020-10-16T14:45:08 ALMT" finished-at="2020-10-16T14:45:16 ALMT">
+        <test-method status="PASS" signature="LoginTestCheck(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@4e7dc304]" name="LoginTestCheck" duration-ms="16549" started-at="2020-10-19T21:47:50 ALMT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject2.Test.LoginTest.CheckLoginPageTitle" finished-at="2020-10-19T21:48:07 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [Usarname=tutorial, Password=tutorial], LoginDTO [Usarname=Admin, Password=admin123]]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestCheck -->
